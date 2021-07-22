@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -27,6 +27,13 @@ printName();
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
 
+function sayHello() {
+  console.log("Oh, Hello!");
+};
+
+sayHello();
+sayHello();
+
 //-------------------
 // PART 2: Arguments and Parameters
 //-------------------
@@ -35,18 +42,38 @@ printName();
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
 
+function greetMe(name, middleName, lastName){
+  console.log('Hello ' + name + ' ' + middleName +  ' ' + lastName);
+
+}
+
+greetMe('Emily', 'cathleen', 'Corcoran');
+greetMe('Etta', 'cathleen', 'Corcoran');
+greetMe('Tom', 'Joseph', 'Corcoran');
 
 
-// YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
+//YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
+function numSum(numOne, numTwo){
+  console.log(numOne + numTwo);
+}
+
+numSum(2, 2);
+numSum(1, 1);
+numSum(10, 10);
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
+function letsPlay(friendOne, friendTwo){
+  console.log(friendOne + " and " + friendTwo + " " + "are BFF's!");
+}
 
+letsPlay('Oscar', 'Ruck');
+letsPlay('Tom', 'Laura');
 
 //-------------------
 // PART 3: Naming is Hard
@@ -61,5 +88,7 @@ What did you name each parameter, and why?
 
 EXPLAIN:
 
+I named my function letsPlay. A more descriptive name could have been myFriends or bestFriends. This would have been much more accurate and
+descriptive. I named each parameter friendOne and friendTwo. I feel that this was accurate. 
 
 */

@@ -38,16 +38,19 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
-
+if the door choice is exactly equal to 1, the bear will be wearing a hat. if any other door is chosen, the bear will be wearing a scarf.
 2. What variable has a new value assigned to it after the first if statement executes?
-
+bearClothing. Origionally it was assigned to a value of " ". Then it was reassigned to a value of "scarf" or "hat".
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+Anything other than 1, than the bear wears a scarf.
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
+If the bear chooses strictly door 1, then I offer the bear my hat and and the bear shows me a secret passagway out.
+If the bear chooses door 2, then I tell the bear the hat is too small and it starts to cry.
+If the bear chooses door 3, I run into the next room because its full of snakes.
+If any other door is chosen, I become friends with the bear.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+"You run as fast as you can into the next room. It's full of snakes!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+"You tell the bear the " + bearClothing + " is too small and it starts to cry!"
 7. What is your favorite ending?
-*/
+*/ the else ending, where the bear chooses any door < 3
