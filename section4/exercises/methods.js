@@ -17,4 +17,23 @@ var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
   tableNumber: 47
+  prepare: function() {
+    console.log("Order is being worked on");
+  }
+  complete: function() {
+    console.log("Order is complete!");
+  }
+  console.log(lunchOrder);
 }
+
+/* var zebraObject = {
+  name: "Angela",
+  age: 3,
+  height: "5ft",
+  diet: ["grass", "leaves", "water"],
+  feed: function() {
+    console.log("Give grass to the Zebra");
+  }
+};
+
+zebraObject.feed(); //logs "Give grass to the Zebra" */
