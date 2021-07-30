@@ -2,8 +2,8 @@
 // Use the double // to create a new comment
 
 //Build a Bear
-function buildABear(name, age, fur, clothes, specialPower) {
-  var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
+function buildABear(name, age, fur, clothes, specialPower) {   //
+  var greeting = `Hey partner! My name is ${name} - will you be my friend?!`; //  define the variable greeting and interpolate to inject the varaible name directly into the string.
   var demographics = [name, age];
   var powerSaying = "Did you know that I can " + specialPower + " ?";
   var builtBear = {
