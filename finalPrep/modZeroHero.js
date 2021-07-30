@@ -2,39 +2,62 @@
 
 // Declare two variables - heroName AND specialAbility - set to strings
 
+var heroName = "Henry";
+var specialAbility = "Being too cute";
+
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 
+var greeting = "Greetings " + heroName;
+var catchphrase = `Hello my name is ${heroName} and my superpower is ${specialAbility}.';
+
 // Declare two variables - power AND energy - set to integers
+
+var power = 5;
+var energy = 10;
 
 // Declare two variables - fullPower AND fullEnergy
 //   fullPower should multiply your current power by 500
 //   fullEnergy should add 150 to your current energy
 
+var fullPower = power * 500;
+var fullEnergy = energy + 150;
+
 // Declare two variables - isHuman and identityConcealed - assigned to booleans
 
+var isHuman = false;
+var identityConcealed = true;
 
 // Declare two variables - archEnemies AND sidekicks
 //   archEnemies should be an array of at least 3 different enemy strings
 //   sidekicks should be an array of at least 3 different sidekick strings
 
+var archEnemies = ["Mr. Cat", "Vaccum", "Swiffer"];
+var sideKicks = ["Windy", "Rachel", "Astro"];
+
 // Print the first sidekick to your console
+console.log(sideKicks[0])
 
 // Print the last archEnemy to the console
-
+console.log(archEnemy[2]
 // Write some code to add a new archEnemy to the archEnemies array
-
+var archEnemies = archEnemies.push("Neighbors Dog")
 // Print the archEnemies array to console to ensure you added a new archEnemy
-
+console.log(archEnemies)
 // Remove the first sidekick from the sidekicks array
-
+archEnemies.pop
 // Print the sidekicks array to console to ensure you added a new sidekick
-
+console.log(archEnemies)
 // Create a function called assessSituation that takes three arguments - dangerLevel, saveTheDay, badExcuse
 //   - dangerLevel should be an integer
 //   - saveTheDay should be a string a hero would say once they save the day 
 //   - badExcuse should be a string a hero would say if they are too afraid of the dangerLevel
+var = function {
+dangerLevel: 5
+saveTheDay: "I saved the day!"
+badExcuse: "I am afriad!"
+}
 
 // Your function should include an if/else statement that meets the following criteria
 //   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the badExcuse to the console
